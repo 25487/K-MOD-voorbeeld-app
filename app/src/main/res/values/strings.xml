@@ -4,4 +4,9 @@
     <string name="description">Description</string>
     <string name="example_application">Example application</string>
     <string name="buttonClicked">Button clicked!</string>
+    <string name="poke_bowl_image">Poke Bowl Image</string>
+    <string name="poke_bowls_btn_text">Poke Bowls</string>
+    <string name="pokebowl_desc">Een poké bowl is een traditioneel gerecht uit Hawaï en spreek je uit als po-kay. Dit gerecht wordt door de vissers gegeten en is de manier om de restjes vis op te maken.
+
+Hoewel poke een regionale Amerikaanse keuken uit Hawaï is, zijn traditionele poke-smaakmakers sterk beïnvloed door Japanse en andere Aziatische keukens</string>
 </resources>
