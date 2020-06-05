@@ -9,4 +9,7 @@
     <string name="pokebowl_desc">Een poké bowl is een traditioneel gerecht uit Hawaï en spreek je uit als po-kay. Dit gerecht wordt door de vissers gegeten en is de manier om de restjes vis op te maken.
 
 Hoewel poke een regionale Amerikaanse keuken uit Hawaï is, zijn traditionele poke-smaakmakers sterk beïnvloed door Japanse en andere Aziatische keukens</string>
+    <string name="ingredient_name">Ingredient name</string>
+    <string name="ingredient_image_desc">Ingredient image</string>
+    <string name="ingredient_price_example">€ 3.99</string>
 </resources>

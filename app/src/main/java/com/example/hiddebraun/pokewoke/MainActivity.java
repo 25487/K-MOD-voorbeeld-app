@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button pokeButton = (Button) findViewById(R.id.btn_pokemenu);
+        Button pokeButton = findViewById(R.id.btn_pokemenu);
         pokeButton.setOnClickListener(pokeButtonListener);
 
     }

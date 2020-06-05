@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
-def apikeyPropertiesFile = rootProject.file("apikey.properties")
-def apikeyProperties = new Properties()
-apikeyProperties.load(new FileInputStream(apikeyPropertiesFile))
+def pokeAppPropertiesFile = rootProject.file("pokeapp.properties")
+def pokeAppProperties = new Properties()
+pokeAppProperties.load(new FileInputStream(pokeAppPropertiesFile))
 
 android {
     compileSdkVersion 29
@@ -10,17 +10,14 @@ android {
 
     defaultConfig {
         applicationId "com.example.hiddebraun.pokehidde"
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
 
         // should correspond to key/value pairs inside the file
-        buildConfigField("String", "API_ENDPOINT", apikeyProperties['API_ENDPOINT'])
-        buildConfigField("String", "API_USER", apikeyProperties['API_USER'])
-        buildConfigField("String", "API_PASSWORD", apikeyProperties['API_PASSWORD'])
-
+        buildConfigField("String", "POKE_JSON_URL", pokeAppProperties['POKE_JSON_URL'])
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -44,4 +41,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }
