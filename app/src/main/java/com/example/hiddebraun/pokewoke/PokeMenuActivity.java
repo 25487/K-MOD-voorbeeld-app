@@ -10,10 +10,6 @@ public class PokeMenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pokemenu);
-        createPokeMenu();
     }
 
-    private void createPokeMenu() {
-
-    }
 }
