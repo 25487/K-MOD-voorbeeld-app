@@ -60,7 +60,7 @@ public class PokeMenuActivity extends AppCompatActivity {
     }
 
     /**
-     * @param String filename JSON filename in src/main/assets to load
+     * @param filename JSON filename in src/main/assets to load
      * @throws JSONException
      */
     private void loadJsonData(String filename) throws JSONException {
